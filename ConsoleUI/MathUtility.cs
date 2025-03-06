@@ -35,7 +35,7 @@ namespace MathTools
         {
             double output = 0;
             output = x / y;
-            return output;
+            return Math.Round(output,2);
         
         }
     }
