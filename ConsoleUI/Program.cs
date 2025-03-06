@@ -11,11 +11,9 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            string userInput;
+           
           
 
-            do
-            {
                 double x = RequestData.GetADouble("Please enter your first number: ");
                 double y = RequestData.GetADouble("Please enter your second number: ");
 
@@ -27,6 +25,7 @@ namespace ConsoleUI
                 Console.WriteLine("4. Divide");
                 Console.WriteLine("5. Exit program");
 
+                string userInput;
                 userInput = Console.ReadLine();
 
 
@@ -53,7 +52,9 @@ namespace ConsoleUI
                         break;
 
                 } 
-            } while (userInput != "5");
+
+
+         
 
 
 
